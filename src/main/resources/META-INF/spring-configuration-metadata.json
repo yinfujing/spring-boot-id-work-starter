@@ -1,0 +1,64 @@
+{
+  "groups": [
+    {
+      "name": "id-work",
+      "type": "rui.coder.idWork.IdWorkProperties",
+      "sourceType": "rui.coder.idWork.IdWorkProperties"
+    },
+    {
+      "name": "id-work.global",
+      "type": "rui.coder.idWork.IdWorkGlobalProperties",
+      "sourceType": "rui.coder.idWork.IdWorkGlobalProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "id-work.global",
+      "type": "rui.coder.idWork.IdWorkGlobalProperties",
+      "sourceType": "rui.coder.idWork.IdWorkProperties"
+    },
+    {
+      "name": "id-work.global.instance-bits",
+      "type": "java.lang.Long",
+      "description": "实例位长度 最大32 个实例",
+      "sourceType": "rui.coder.idWork.IdWorkGlobalProperties",
+      "defaultValue": 5
+    },
+    {
+      "name": "id-work.global.project-bits",
+      "type": "java.lang.Long",
+      "description": "项目位长度 最大支持1024个项目",
+      "sourceType": "rui.coder.idWork.IdWorkGlobalProperties",
+      "defaultValue": 10
+    },
+    {
+      "name": "id-work.global.sequence-bits",
+      "type": "java.lang.Long",
+      "description": "序列码位长度 提供从0-127。每号码的长度",
+      "sourceType": "rui.coder.idWork.IdWorkGlobalProperties",
+      "defaultValue": 7
+    },
+    {
+      "name": "id-work.instance-id",
+      "type": "java.lang.Long",
+      "description": "实例id",
+      "sourceType": "rui.coder.idWork.IdWorkProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "id-work.project-id",
+      "type": "java.lang.Long",
+      "description": "项目id",
+      "sourceType": "rui.coder.idWork.IdWorkProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "id-work.start-time",
+      "type": "java.lang.Long",
+      "description": "开始时间截",
+      "sourceType": "rui.coder.idWork.IdWorkProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
